@@ -10,7 +10,7 @@
   }
   .services{
     padding: 1px;
-    background:url(images/assets/backgrounds/s_image.jpg);
+    background:url(/images/assets/backgrounds/s_image.jpg);
     background-size: cover;
     text-align: center;
     color: white;
@@ -42,8 +42,51 @@
    .portfolio {
     width: 22%;
     padding: 10px;
+    background-image: url(/images/assets/portfolio/);
     flex-wrap: wrap;
     justify-content: space-evenly;
     display: flex;
    }
-  
+   .contact {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-image: url(/images/assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+}
+.text {
+    color: white;
+    font-size: 12px;
+}
+
+.myForm-input {
+    font-size: 12px;
+    padding: 5px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: white;
+}
+
+form.contact-us {
+    background: transparent;
+    padding-top: 20px;
+}
+div.contact-btn button {
+    margin-bottom: 10px;
+    padding: 7px 5px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+input.contact-email {
+    margin-left: 240px;
+}
+
+div.contact-btn button {
+    padding: 7px 10px;
+    width: 150px;
+    font-weight: bold;
+    transition: border 0.2s;
+    font-size: 1.2rem;
+}
