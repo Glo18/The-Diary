@@ -11,7 +11,7 @@ $(document).ready(function() {
 });
 var btn = document.getElementById("mySubw");
 
-btn.onclick = function(event)
+btn.onclick = function(event) {
     var x = document.forms["myForm"]["contact-name"].value;
     if (x == "") {
         alert("Name not entered");
@@ -29,4 +29,5 @@ btn.onclick = function(event)
     }
     var person1Input = $("input#contact-name").val();
     $("#outputName").append(person1Input);
+}
 
